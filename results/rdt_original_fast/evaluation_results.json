@@ -1,0 +1,18 @@
+{
+  "config": {
+    "env_id": "PickCube-v1",
+    "cache_mode": null,
+    "cache_threshold": 5,
+    "optimal_steps_dir": null,
+    "num_caches": 30,
+    "cache_metric": "cosine",
+    "pretrained_path": "/home/kyji/public/public_data/models/maniskill-model/rdt/mp_rank_00_model_states.pt",
+    "random_seed": 0
+  },
+  "benchmark": {},
+  "environment": {
+    "success_rate": 66.66666666666666,
+    "success_count": 2,
+    "total_episodes": 3
+  }
+}

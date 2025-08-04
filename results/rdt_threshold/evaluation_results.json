@@ -1,0 +1,55 @@
+{
+  "config": {
+    "env_id": "PegInsertionSide-v1",
+    "cache_mode": "threshold",
+    "cache_threshold": 20,
+    "optimal_steps_dir": null,
+    "num_caches": 5,
+    "cache_metric": "cosine",
+    "pretrained_path": "/home/kyji/public/public_data/models/maniskill-model/rdt/mp_rank_00_model_states.pt",
+    "random_seed": 0,
+    "num_bu_blocks": 0
+  },
+  "benchmark": {
+    "original": {
+      "avg_time": 0.9634754896163941,
+      "std_time": 0.08274577525702141,
+      "frequency": 1.0379091225228243,
+      "durations": [
+        0.9996926784515381,
+        0.9927067756652832,
+        0.989403486251831,
+        1.0014228820800781,
+        1.022705316543579,
+        1.0141279697418213,
+        1.0199294090270996,
+        0.9960269927978516,
+        0.797332763671875,
+        0.8014066219329834
+      ]
+    },
+    "fast": {
+      "avg_time": 0.2501102924346924,
+      "std_time": 0.0007284040973163521,
+      "frequency": 3.998236099224566,
+      "durations": [
+        0.2508692741394043,
+        0.25035929679870605,
+        0.2511138916015625,
+        0.2502570152282715,
+        0.24974870681762695,
+        0.2491469383239746,
+        0.24901628494262695,
+        0.24953985214233398,
+        0.24992895126342773,
+        0.25112271308898926
+      ]
+    },
+    "speedup": 3.8522024833023303
+  },
+  "environment": {
+    "success_rate": 16.0,
+    "success_count": 4,
+    "total_episodes": 25
+  }
+}

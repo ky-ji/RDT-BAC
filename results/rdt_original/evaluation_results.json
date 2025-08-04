@@ -1,0 +1,54 @@
+{
+  "config": {
+    "env_id": "StackCube-v1",
+    "cache_mode": null,
+    "cache_threshold": 5,
+    "optimal_steps_dir": null,
+    "num_caches": 30,
+    "cache_metric": "cosine",
+    "pretrained_path": "/home/kyji/public/public_data/models/maniskill-model/rdt/mp_rank_00_model_states.pt",
+    "random_seed": 0
+  },
+  "benchmark": {
+    "original": {
+      "avg_time": 0.7842687606811524,
+      "std_time": 0.009803042332005732,
+      "frequency": 1.2750731001085405,
+      "durations": [
+        0.7799997329711914,
+        0.7829935550689697,
+        0.769183874130249,
+        0.7869372367858887,
+        0.7766733169555664,
+        0.7845139503479004,
+        0.7778375148773193,
+        0.7957372665405273,
+        0.7827796936035156,
+        0.8060314655303955
+      ]
+    },
+    "fast": {
+      "avg_time": 0.7848044872283936,
+      "std_time": 0.009367374682958599,
+      "frequency": 1.2742027043341564,
+      "durations": [
+        0.7751030921936035,
+        0.8026964664459229,
+        0.7754909992218018,
+        0.784290075302124,
+        0.7738516330718994,
+        0.7757992744445801,
+        0.7857236862182617,
+        0.7884716987609863,
+        0.7904605865478516,
+        0.7961573600769043
+      ]
+    },
+    "speedup": 0.9993173757847217
+  },
+  "environment": {
+    "success_rate": 64.0,
+    "success_count": 16,
+    "total_episodes": 25
+  }
+}

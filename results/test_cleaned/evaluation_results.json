@@ -1,0 +1,30 @@
+{
+  "config": {
+    "env_id": "PickCube-v1",
+    "cache_mode": "threshold",
+    "cache_threshold": 5,
+    "optimal_steps_dir": null,
+    "num_caches": 30,
+    "cache_metric": "cosine",
+    "pretrained_path": "/home/kyji/public/public_data/models/maniskill-model/rdt/mp_rank_00_model_states.pt",
+    "random_seed": 0
+  },
+  "benchmark": {
+    "avg_time": 0.22191026210784912,
+    "std_time": 0.0014459840242920425,
+    "frequency": 4.506326072987092,
+    "durations": [
+      0.2211780548095703,
+      0.22076034545898438,
+      0.22109079360961914,
+      0.22590160369873047,
+      0.22103452682495117,
+      0.2228851318359375,
+      0.2215723991394043,
+      0.22183966636657715,
+      0.22167587280273438,
+      0.22116422653198242
+    ]
+  },
+  "environment": {}
+}
