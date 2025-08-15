@@ -36,7 +36,7 @@ python -m eval_sim.eval_rdt_maniskill_cache \
   --cache_mode optimal \
   --optimal_steps_dir ./assets/PegInsertionSide-v1/optimal_steps \
   --output_dir ./results/rdt_optimal_bu \
-  --num_caches 20 \
+  --num_caches 2 \
   --num_bu_blocks 0
   
 
@@ -74,8 +74,8 @@ python -m eval_sim.eval_rdt_maniskill_cache \
   --cache_mode optimal \
   --optimal_steps_dir ./assets/PushCube-v1/optimal_steps \
   --output_dir ./results/rdt_optimal_bu \
-  --num_caches 2 \
-  --num_bu_blocks 3 
+  --num_caches 1 \
+  --num_bu_blocks 0
   
   
   
@@ -310,7 +310,7 @@ def run_environment_evaluation(args, policy, text_embed):
     total_episodes = args.num_traj
     success_count = 0
     
-    base_seed = 201201
+    base_seed = 20241201
 
     for episode in tqdm.trange(total_episodes):
         obs_window = deque(maxlen=2)
